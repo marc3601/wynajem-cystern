@@ -45,6 +45,7 @@ const Details = () => {
                     <ListGroup.Item as="li">Pompa elektryczna</ListGroup.Item>
                     <ListGroup.Item as="li">Webasto</ListGroup.Item>
                     <ListGroup.Item as="li">Pompa elektryczna</ListGroup.Item>
+                    <ListGroup.Item as="li">Pompa hydrauliczna</ListGroup.Item>
                 </ListGroup>
             </Col>
         </Row>
