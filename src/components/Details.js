@@ -1,37 +1,40 @@
 import React from 'react';
 import { Container, Row, Col, Button, ListGroup } from 'react-bootstrap';
 import { StaticImage } from 'gatsby-plugin-image';
-
+import { Link } from 'gatsby';
 const Details = () => {
     return <Container className='mt-5 mb-5'>
         <Row>
             <Col xs={12} md={6}>
                 <Row>
                     <Col className='p-2'>
-                        <StaticImage
-                            src="../images/squere.jpg"
-                            alt="cysterna"
-                            width={900}
-
-                        />
+                        <Link to="/detailedlisting/gallery">
+                            <StaticImage
+                                src="../images/squere.jpg"
+                                alt="cysterna"
+                                width={900}
+                            />
+                        </Link>
                     </Col>
                 </Row>
                 <Row>
                     <Col className='p-2'>
-                        <StaticImage
-                            src="../images/squere.jpg"
-                            alt="cysterna"
-                            width={500}
-
-                        />
+                        <Link to="/detailedlisting/gallery">
+                            <StaticImage
+                                src="../images/squere.jpg"
+                                alt="cysterna"
+                                width={500}
+                            />
+                        </Link>
                     </Col>
                     <Col className='p-2'>
-                        <StaticImage
-                            src="../images/squere.jpg"
-                            alt="cysterna"
-                            width={500}
-
-                        />
+                        <Link to="/detailedlisting/gallery">
+                            <StaticImage
+                                src="../images/squere.jpg"
+                                alt="cysterna"
+                                width={500}
+                            />
+                        </Link>
                     </Col>
                 </Row>
             </Col>
